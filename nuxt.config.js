@@ -11,7 +11,7 @@ export default {
       { hid: 'description', name: 'description', content: '' }
     ],
     link: [
-      { rel: 'icon', type: 'image/x-icon', href: '/static/favicon.ico' }
+      { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
     ]
   },
 
@@ -22,7 +22,6 @@ export default {
   // Plugins to run before rendering page: https://go.nuxtjs.dev/config-plugins
   plugins: [
     'plugins/axios' // 追加
-//    '/plugins/axios'
   ],
 
   // Auto import components: https://go.nuxtjs.dev/config-components
@@ -33,7 +32,7 @@ export default {
     // https://go.nuxtjs.dev/eslint
     '@nuxtjs/eslint-module',
      // Doc: https://www.npmjs.com/package/@nuxtjs/vuetify
-    '@nuxtjs/vuetify'
+    //'@nuxtjs/vuetify'
   ],
 
   // Modules: https://go.nuxtjs.dev/config-modules
@@ -41,26 +40,26 @@ export default {
     // https://go.nuxtjs.dev/axios
     '@nuxtjs/axios',
     // Doc: https://www.npmjs.com/package/@nuxtjs/vuetify
- 　 '@nuxtjs/vuetify'
+   '@nuxtjs/vuetify'
   ],
 
   // Axios module configuration: https://go.nuxtjs.dev/config-axios
   axios: {},
-// 追加
-vuetify: {
-  theme: {
-    themes: {
-      light: {
-        primary: '4080BE',
-        info: '4FC1E9',
-        success: '44D69E',
-        warning: 'FEB65E',
-        error: 'FB8678',
-        background: 'f6f6f4'
+  // 追加
+  vuetify: {
+    theme: {
+      themes: {
+        light: {
+          primary: '4080BE',
+          info: '4FC1E9',
+          success: '44D69E',
+          warning: 'FEB65E',
+          error: 'FB8678',
+          background: 'f6f6f4'
+        }
       }
     }
-  }
-},  
+  },  
   // Build Configuration: https://go.nuxtjs.dev/config-build
   build: {
   }
