@@ -1,1 +1,9 @@
+/.env
+workspace.code-workspace
+.vscode/launch.json
+.eslintrc.json
+.htaccess
+Brewfile
+node_modules/
+.nuxt/
 package-lock.json
