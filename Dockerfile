@@ -21,13 +21,13 @@ WORKDIR ${HOME}
 # 追加
 COPY package*.json ./
 
-COPY . ./
-
 # 追加
 RUN apk update && \
     apk upgrade && \
     apk add --no-cache make gcc g++ python && \
     yarn install
+
+COPY . ./
 
 RUN yarn run build
 # ここまで
