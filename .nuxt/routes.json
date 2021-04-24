@@ -1,5 +1,19 @@
 [
   {
+    "name": "404",
+    "path": "/404",
+    "component": "/app/pages/404.vue",
+    "chunkName": "pages/404",
+    "_name": "_22139184"
+  },
+  {
+    "name": "sample",
+    "path": "/sample",
+    "component": "/app/pages/sample.vue",
+    "chunkName": "pages/sample",
+    "_name": "_7007cd14"
+  },
+  {
     "name": "index",
     "path": "/",
     "component": "/app/pages/index.vue",

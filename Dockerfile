@@ -8,7 +8,8 @@ ENV HOME=/${WORKDIR} \
     LANG=C.UTF-8 \
     TZ=Asia/Tokyo \
     HOST=0.0.0.0 \
-    API_URL=${API_URL}
+    API_URL=${API_URL}\
+    NPM_CONFIG_PRODUCTION=false
 
 # ENV check
 RUN echo ${HOME}
@@ -19,9 +20,14 @@ WORKDIR ${HOME}
 
 # 追加
 COPY package*.json ./
-RUN yarn install
 
 COPY . ./
+
+# 追加
+RUN apk update && \
+    apk upgrade && \
+    apk add --no-cache make gcc g++ python && \
+    yarn install
 
 RUN yarn run build
 # ここまで
