@@ -8,10 +8,13 @@ export default {
   layout: 'none',
   // 削除
   // layout: 'logout',
-  async beforeCreate () {
-    await this.$auth.logout()
-    //this.$router.replace('/')
+  // async beforeCreate () {
+  //   await this.$auth.logout()
+  //   //this.$router.replace('/')
+  //   this.$router.push({ name: "login" });
+  // }
+  async beforeCreate() {
     this.$router.push({ name: "login" });
-  }
+  },
 }
 </script>

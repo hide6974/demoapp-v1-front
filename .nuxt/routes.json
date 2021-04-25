@@ -1,8 +1,30 @@
 [
   {
-    "name": "index",
+    "name": "index___en",
+    "path": "/en",
+    "component": "/app/pages/index.vue",
+    "chunkName": "pages/index",
+    "_name": "_2dfb1658"
+  },
+  {
+    "name": "logout___ja",
+    "path": "/logout",
+    "component": "/app/pages/logout.vue",
+    "chunkName": "pages/logout",
+    "_name": "_49c57cf4"
+  },
+  {
+    "name": "logout___en",
+    "path": "/en/logout",
+    "component": "/app/pages/logout.vue",
+    "chunkName": "pages/logout",
+    "_name": "_49c57cf4"
+  },
+  {
+    "name": "index___ja",
     "path": "/",
     "component": "/app/pages/index.vue",
-    "chunkName": "pages/index"
+    "chunkName": "pages/index",
+    "_name": "_2dfb1658"
   }
 ]

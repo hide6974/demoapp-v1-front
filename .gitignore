@@ -7,3 +7,4 @@ Brewfile
 node_modules/
 .nuxt/
 package-lock.json
+yarn.lock

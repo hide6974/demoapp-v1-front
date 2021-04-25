@@ -16,7 +16,8 @@
     "@nuxtjs/axios": "^5.13.1",
     "connect-history-api-fallback": "^1.6.0",
     "core-js": "^3.9.1",
-    "nuxt": "^2.15.3"
+    "nuxt": "^2.15.3",
+    "nuxt-i18n": "^6.26.0"
   },
   "devDependencies": {
     "@nuxtjs/eslint-config": "^6.0.0",
