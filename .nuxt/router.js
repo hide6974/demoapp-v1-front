@@ -4,8 +4,10 @@ import { normalizeURL, decode } from 'ufo'
 import { interopDefault } from './utils'
 import scrollBehavior from './router.scrollBehavior.js'
 
-const _2dfb1658 = () => interopDefault(import('../pages/index.vue' /* webpackChunkName: "pages/index" */))
+const _10ba8d22 = () => interopDefault(import('../pages/login.vue' /* webpackChunkName: "pages/login" */))
 const _49c57cf4 = () => interopDefault(import('../pages/logout.vue' /* webpackChunkName: "pages/logout" */))
+const _490e6182 = () => interopDefault(import('../pages/signup.vue' /* webpackChunkName: "pages/signup" */))
+const _2dfb1658 = () => interopDefault(import('../pages/index.vue' /* webpackChunkName: "pages/index" */))
 
 const emptyFn = () => {}
 
@@ -19,21 +21,21 @@ export const routerOptions = {
   scrollBehavior,
 
   routes: [{
-    path: "/en",
-    component: _2dfb1658,
-    name: "index___en"
+    path: "/login",
+    component: _10ba8d22,
+    name: "login"
   }, {
     path: "/logout",
     component: _49c57cf4,
-    name: "logout___ja"
+    name: "logout"
   }, {
-    path: "/en/logout",
-    component: _49c57cf4,
-    name: "logout___en"
+    path: "/signup",
+    component: _490e6182,
+    name: "signup"
   }, {
     path: "/",
     component: _2dfb1658,
-    name: "index___ja"
+    name: "index"
   }],
 
   fallback: false
