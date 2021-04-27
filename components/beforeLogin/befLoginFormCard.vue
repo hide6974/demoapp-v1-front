@@ -9,7 +9,7 @@
         class="my-8 text-center"
       >
         <h1 class="text-h5 font-weight-bold">
-          {{ appName }}に{{ pageTitle }}
+          {{ appName }}の{{ pageTitle }}
         </h1>
       </v-col>
 

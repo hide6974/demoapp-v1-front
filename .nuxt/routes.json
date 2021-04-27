@@ -3,18 +3,21 @@
     "name": "logout",
     "path": "/logout",
     "component": "/app/pages/logout.vue",
-    "chunkName": "pages/logout"
+    "chunkName": "pages/logout",
+    "_name": "_49c57cf4"
   },
   {
     "name": "signup",
     "path": "/signup",
     "component": "/app/pages/signup.vue",
-    "chunkName": "pages/signup"
+    "chunkName": "pages/signup",
+    "_name": "_490e6182"
   },
   {
     "name": "index",
     "path": "/",
     "component": "/app/pages/index.vue",
-    "chunkName": "pages/index"
+    "chunkName": "pages/index",
+    "_name": "_2dfb1658"
   }
 ]

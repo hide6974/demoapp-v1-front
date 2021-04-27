@@ -1,4 +1,22 @@
 {
+  "WelcomeWelAbout": {
+    "description": "Auto imported from components/welcome/welAbout.vue"
+  },
+  "WelcomeWelAppBar": {
+    "description": "Auto imported from components/welcome/welAppBar.vue"
+  },
+  "WelcomeWelCompany": {
+    "description": "Auto imported from components/welcome/welCompany.vue"
+  },
+  "WelcomeWelContact": {
+    "description": "Auto imported from components/welcome/welContact.vue"
+  },
+  "WelcomeWelPrice": {
+    "description": "Auto imported from components/welcome/welPrice.vue"
+  },
+  "WelcomeWelProducts": {
+    "description": "Auto imported from components/welcome/welProducts.vue"
+  },
   "UiAppLogo": {
     "description": "Auto imported from components/ui/appLogo.vue"
   },
@@ -19,24 +37,6 @@
   },
   "BeforeLoginSignupLink": {
     "description": "Auto imported from components/beforeLogin/signupLink.vue"
-  },
-  "WelcomeWelAbout": {
-    "description": "Auto imported from components/welcome/welAbout.vue"
-  },
-  "WelcomeWelAppBar": {
-    "description": "Auto imported from components/welcome/welAppBar.vue"
-  },
-  "WelcomeWelCompany": {
-    "description": "Auto imported from components/welcome/welCompany.vue"
-  },
-  "WelcomeWelContact": {
-    "description": "Auto imported from components/welcome/welContact.vue"
-  },
-  "WelcomeWelPrice": {
-    "description": "Auto imported from components/welcome/welPrice.vue"
-  },
-  "WelcomeWelProducts": {
-    "description": "Auto imported from components/welcome/welProducts.vue"
   },
   "UserFormEmail": {
     "description": "Auto imported from components/user/userFormEmail.vue"
