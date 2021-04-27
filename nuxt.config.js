@@ -22,7 +22,8 @@ export default {
   ],
 
   plugins: [ 
-    'plugins/axios'
+    'plugins/axios',
+    'plugins/myInject'
   ],
 
   // Doc: https://nuxtjs.org/api/configuration-components

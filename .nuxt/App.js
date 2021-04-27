@@ -10,9 +10,10 @@ import '../assets/sass/main.scss'
 
 import _37c91574 from '../layouts/beforeLogin.vue'
 import _6f6c098b from '../layouts/default.vue'
+import _5fc24786 from '../layouts/loggedIn.vue'
 import _5cd7ceac from '../layouts/welcome.vue'
 
-const layouts = { "_beforeLogin": sanitizeComponent(_37c91574),"_default": sanitizeComponent(_6f6c098b),"_welcome": sanitizeComponent(_5cd7ceac) }
+const layouts = { "_beforeLogin": sanitizeComponent(_37c91574),"_default": sanitizeComponent(_6f6c098b),"_loggedIn": sanitizeComponent(_5fc24786),"_welcome": sanitizeComponent(_5cd7ceac) }
 
 export default {
   render (h, props) {
