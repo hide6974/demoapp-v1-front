@@ -20,9 +20,6 @@
         登録する
       </v-btn>
     </v-form>
-    <v-card-text>
-      {{ params }}
-    </v-card-text>
  </div>
 </template>
 
