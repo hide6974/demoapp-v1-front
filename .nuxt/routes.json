@@ -1,26 +1,53 @@
 [
   {
+    "name": "account",
+    "path": "/account",
+    "component": "/app/pages/account.vue",
+    "chunkName": "pages/account",
+    "children": [
+      {
+        "name": "account-password",
+        "path": "password",
+        "component": "/app/pages/account/password.vue",
+        "chunkName": "pages/account/password",
+        "_name": "_035228b2"
+      },
+      {
+        "name": "account-settings",
+        "path": "settings",
+        "component": "/app/pages/account/settings.vue",
+        "chunkName": "pages/account/settings",
+        "_name": "_07382da2"
+      }
+    ],
+    "_name": "_83dfe29a"
+  },
+  {
     "name": "login",
     "path": "/login",
     "component": "/app/pages/login.vue",
-    "chunkName": "pages/login"
+    "chunkName": "pages/login",
+    "_name": "_10ba8d22"
   },
   {
     "name": "logout",
     "path": "/logout",
     "component": "/app/pages/logout.vue",
-    "chunkName": "pages/logout"
+    "chunkName": "pages/logout",
+    "_name": "_49c57cf4"
   },
   {
     "name": "signup",
     "path": "/signup",
     "component": "/app/pages/signup.vue",
-    "chunkName": "pages/signup"
+    "chunkName": "pages/signup",
+    "_name": "_490e6182"
   },
   {
     "name": "index",
     "path": "/",
     "component": "/app/pages/index.vue",
-    "chunkName": "pages/index"
+    "chunkName": "pages/index",
+    "_name": "_2dfb1658"
   }
 ]

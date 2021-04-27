@@ -5,6 +5,15 @@
   "UiAppTitle": {
     "description": "Auto imported from components/ui/appTitle.vue"
   },
+  "UserFormEmail": {
+    "description": "Auto imported from components/user/userFormEmail.vue"
+  },
+  "UserFormName": {
+    "description": "Auto imported from components/user/userFormName.vue"
+  },
+  "UserFormPassword": {
+    "description": "Auto imported from components/user/userFormPassword.vue"
+  },
   "BeforeLoginBefLoginAppBar": {
     "description": "Auto imported from components/beforeLogin/befLoginAppBar.vue"
   },
@@ -19,15 +28,6 @@
   },
   "BeforeLoginSignupLink": {
     "description": "Auto imported from components/beforeLogin/signupLink.vue"
-  },
-  "UserFormEmail": {
-    "description": "Auto imported from components/user/userFormEmail.vue"
-  },
-  "UserFormName": {
-    "description": "Auto imported from components/user/userFormName.vue"
-  },
-  "UserFormPassword": {
-    "description": "Auto imported from components/user/userFormPassword.vue"
   },
   "WelcomeWelAbout": {
     "description": "Auto imported from components/welcome/welAbout.vue"

@@ -4,6 +4,9 @@ import { normalizeURL, decode } from 'ufo'
 import { interopDefault } from './utils'
 import scrollBehavior from './router.scrollBehavior.js'
 
+const _83dfe29a = () => interopDefault(import('../pages/account.vue' /* webpackChunkName: "pages/account" */))
+const _035228b2 = () => interopDefault(import('../pages/account/password.vue' /* webpackChunkName: "pages/account/password" */))
+const _07382da2 = () => interopDefault(import('../pages/account/settings.vue' /* webpackChunkName: "pages/account/settings" */))
 const _10ba8d22 = () => interopDefault(import('../pages/login.vue' /* webpackChunkName: "pages/login" */))
 const _49c57cf4 = () => interopDefault(import('../pages/logout.vue' /* webpackChunkName: "pages/logout" */))
 const _490e6182 = () => interopDefault(import('../pages/signup.vue' /* webpackChunkName: "pages/signup" */))
@@ -21,6 +24,19 @@ export const routerOptions = {
   scrollBehavior,
 
   routes: [{
+    path: "/account",
+    component: _83dfe29a,
+    name: "account",
+    children: [{
+      path: "password",
+      component: _035228b2,
+      name: "account-password"
+    }, {
+      path: "settings",
+      component: _07382da2,
+      name: "account-settings"
+    }]
+  }, {
     path: "/login",
     component: _10ba8d22,
     name: "login"

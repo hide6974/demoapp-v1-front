@@ -1,12 +1,16 @@
 <template>
-  <div></div>
+  <nuxt />
 </template>
 
 <script>
 export default {
-  layout: 'none',
-  async beforeCreate() {
-    this.$router.push({ name: "login" });
+  async middleware ({ store, redirect, from }) {
+    await store.dispatch('logout')
+    if (from.name !== 'index') { return redirect('/') }
+  },
+  layout: 'logout',
+  beforeCreate () {
+    this.$router.replace('/')
   }
 }
 </script>
