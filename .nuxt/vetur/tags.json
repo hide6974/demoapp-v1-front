@@ -5,6 +5,21 @@
   "UiAppTitle": {
     "description": "Auto imported from components/ui/appTitle.vue"
   },
+  "BeforeLoginBefLoginAppBar": {
+    "description": "Auto imported from components/beforeLogin/befLoginAppBar.vue"
+  },
+  "BeforeLoginBefLoginFooter": {
+    "description": "Auto imported from components/beforeLogin/befLoginFooter.vue"
+  },
+  "BeforeLoginBefLoginFormCard": {
+    "description": "Auto imported from components/beforeLogin/befLoginFormCard.vue"
+  },
+  "BeforeLoginLink": {
+    "description": "Auto imported from components/beforeLogin/loginLink.vue"
+  },
+  "BeforeLoginSignupLink": {
+    "description": "Auto imported from components/beforeLogin/signupLink.vue"
+  },
   "WelcomeWelAbout": {
     "description": "Auto imported from components/welcome/welAbout.vue"
   },
@@ -31,20 +46,5 @@
   },
   "UserFormPassword": {
     "description": "Auto imported from components/user/userFormPassword.vue"
-  },
-  "BeforeLoginBefLoginAppBar": {
-    "description": "Auto imported from components/beforeLogin/befLoginAppBar.vue"
-  },
-  "BeforeLoginBefLoginFooter": {
-    "description": "Auto imported from components/beforeLogin/befLoginFooter.vue"
-  },
-  "BeforeLoginBefLoginFormCard": {
-    "description": "Auto imported from components/beforeLogin/befLoginFormCard.vue"
-  },
-  "BeforeLoginLink": {
-    "description": "Auto imported from components/beforeLogin/loginLink.vue"
-  },
-  "BeforeLoginSignupLink": {
-    "description": "Auto imported from components/beforeLogin/signupLink.vue"
   }
 }
