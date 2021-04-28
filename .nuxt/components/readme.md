@@ -13,6 +13,8 @@ You can directly use them in pages and other components without the need to impo
 - `<BeforeLoginSignupLink>` | `<before-login-signup-link>` (components/beforeLogin/signupLink.vue)
 - `<UiAppLogo>` | `<ui-app-logo>` (components/ui/appLogo.vue)
 - `<UiAppTitle>` | `<ui-app-title>` (components/ui/appTitle.vue)
+- `<LoggedInContainer>` | `<logged-in-container>` (components/loggedIn/loggedInContainer.vue)
+- `<LoggedInHeader>` | `<logged-in-header>` (components/loggedIn/loggedInHeader.vue)
 - `<UserFormEmail>` | `<user-form-email>` (components/user/userFormEmail.vue)
 - `<UserFormName>` | `<user-form-name>` (components/user/userFormName.vue)
 - `<UserFormPassword>` | `<user-form-password>` (components/user/userFormPassword.vue)
@@ -23,3 +25,4 @@ You can directly use them in pages and other components without the need to impo
 - `<WelcomeWelPrice>` | `<welcome-wel-price>` (components/welcome/welPrice.vue)
 - `<WelcomeWelProducts>` | `<welcome-wel-products>` (components/welcome/welProducts.vue)
 - `<LoggedInAppBar>` | `<logged-in-app-bar>` (components/loggedIn/header/loggedInAppBar.vue)
+- `<LoggedInNavDrawer>` | `<logged-in-nav-drawer>` (components/loggedIn/header/loggedInNavDrawer.vue)

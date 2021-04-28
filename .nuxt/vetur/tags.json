@@ -20,6 +20,12 @@
   "UiAppTitle": {
     "description": "Auto imported from components/ui/appTitle.vue"
   },
+  "LoggedInContainer": {
+    "description": "Auto imported from components/loggedIn/loggedInContainer.vue"
+  },
+  "LoggedInHeader": {
+    "description": "Auto imported from components/loggedIn/loggedInHeader.vue"
+  },
   "UserFormEmail": {
     "description": "Auto imported from components/user/userFormEmail.vue"
   },
@@ -49,5 +55,8 @@
   },
   "LoggedInAppBar": {
     "description": "Auto imported from components/loggedIn/header/loggedInAppBar.vue"
+  },
+  "LoggedInNavDrawer": {
+    "description": "Auto imported from components/loggedIn/header/loggedInNavDrawer.vue"
   }
 }

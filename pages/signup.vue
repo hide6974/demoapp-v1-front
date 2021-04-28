@@ -1,7 +1,6 @@
 <template>
- <div class="main">
-   <bef-login-form-card></bef-login-form-card>
-    <p><slot name="form-card-content"></slot></p>
+  <bef-login-form-card>
+    <template v-slot:form-card-content>
     <v-form
       ref="form"
       v-model="isValid"
@@ -20,7 +19,8 @@
         登録する
       </v-btn>
     </v-form>
- </div>
+    </template>
+  </bef-login-form-card>
 </template>
 
 <script>

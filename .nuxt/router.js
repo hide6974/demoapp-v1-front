@@ -10,6 +10,12 @@ const _07382da2 = () => interopDefault(import('../pages/account/settings.vue' /*
 const _10ba8d22 = () => interopDefault(import('../pages/login.vue' /* webpackChunkName: "pages/login" */))
 const _49c57cf4 = () => interopDefault(import('../pages/logout.vue' /* webpackChunkName: "pages/logout" */))
 const _490e6182 = () => interopDefault(import('../pages/signup.vue' /* webpackChunkName: "pages/signup" */))
+const _b67787aa = () => interopDefault(import('../pages/project/_id/components.vue' /* webpackChunkName: "pages/project/_id/components" */))
+const _3c010e0f = () => interopDefault(import('../pages/project/_id/dashboard.vue' /* webpackChunkName: "pages/project/_id/dashboard" */))
+const _e63ac6d4 = () => interopDefault(import('../pages/project/_id/help.vue' /* webpackChunkName: "pages/project/_id/help" */))
+const _414ee844 = () => interopDefault(import('../pages/project/_id/layouts.vue' /* webpackChunkName: "pages/project/_id/layouts" */))
+const _0b123682 = () => interopDefault(import('../pages/project/_id/pages.vue' /* webpackChunkName: "pages/project/_id/pages" */))
+const _652161f8 = () => interopDefault(import('../pages/project/_id/settings.vue' /* webpackChunkName: "pages/project/_id/settings" */))
 const _2dfb1658 = () => interopDefault(import('../pages/index.vue' /* webpackChunkName: "pages/index" */))
 
 const emptyFn = () => {}
@@ -48,6 +54,30 @@ export const routerOptions = {
     path: "/signup",
     component: _490e6182,
     name: "signup"
+  }, {
+    path: "/project/:id?/components",
+    component: _b67787aa,
+    name: "project-id-components"
+  }, {
+    path: "/project/:id?/dashboard",
+    component: _3c010e0f,
+    name: "project-id-dashboard"
+  }, {
+    path: "/project/:id?/help",
+    component: _e63ac6d4,
+    name: "project-id-help"
+  }, {
+    path: "/project/:id?/layouts",
+    component: _414ee844,
+    name: "project-id-layouts"
+  }, {
+    path: "/project/:id?/pages",
+    component: _0b123682,
+    name: "project-id-pages"
+  }, {
+    path: "/project/:id?/settings",
+    component: _652161f8,
+    name: "project-id-settings"
   }, {
     path: "/",
     component: _2dfb1658,

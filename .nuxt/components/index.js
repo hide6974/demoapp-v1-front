@@ -7,6 +7,8 @@ export { default as BeforeLoginLink } from '../../components/beforeLogin/loginLi
 export { default as BeforeLoginSignupLink } from '../../components/beforeLogin/signupLink.vue'
 export { default as UiAppLogo } from '../../components/ui/appLogo.vue'
 export { default as UiAppTitle } from '../../components/ui/appTitle.vue'
+export { default as LoggedInContainer } from '../../components/loggedIn/loggedInContainer.vue'
+export { default as LoggedInHeader } from '../../components/loggedIn/loggedInHeader.vue'
 export { default as UserFormEmail } from '../../components/user/userFormEmail.vue'
 export { default as UserFormName } from '../../components/user/userFormName.vue'
 export { default as UserFormPassword } from '../../components/user/userFormPassword.vue'
@@ -17,6 +19,7 @@ export { default as WelcomeWelContact } from '../../components/welcome/welContac
 export { default as WelcomeWelPrice } from '../../components/welcome/welPrice.vue'
 export { default as WelcomeWelProducts } from '../../components/welcome/welProducts.vue'
 export { default as LoggedInAppBar } from '../../components/loggedIn/header/loggedInAppBar.vue'
+export { default as LoggedInNavDrawer } from '../../components/loggedIn/header/loggedInNavDrawer.vue'
 
 export const LazyBeforeLoginBefLoginAppBar = import('../../components/beforeLogin/befLoginAppBar.vue' /* webpackChunkName: "components/before-login-bef-login-app-bar" */).then(c => wrapFunctional(c.default || c))
 export const LazyBeforeLoginBefLoginFooter = import('../../components/beforeLogin/befLoginFooter.vue' /* webpackChunkName: "components/before-login-bef-login-footer" */).then(c => wrapFunctional(c.default || c))
@@ -25,6 +28,8 @@ export const LazyBeforeLoginLink = import('../../components/beforeLogin/loginLin
 export const LazyBeforeLoginSignupLink = import('../../components/beforeLogin/signupLink.vue' /* webpackChunkName: "components/before-login-signup-link" */).then(c => wrapFunctional(c.default || c))
 export const LazyUiAppLogo = import('../../components/ui/appLogo.vue' /* webpackChunkName: "components/ui-app-logo" */).then(c => wrapFunctional(c.default || c))
 export const LazyUiAppTitle = import('../../components/ui/appTitle.vue' /* webpackChunkName: "components/ui-app-title" */).then(c => wrapFunctional(c.default || c))
+export const LazyLoggedInContainer = import('../../components/loggedIn/loggedInContainer.vue' /* webpackChunkName: "components/logged-in-container" */).then(c => wrapFunctional(c.default || c))
+export const LazyLoggedInHeader = import('../../components/loggedIn/loggedInHeader.vue' /* webpackChunkName: "components/logged-in-header" */).then(c => wrapFunctional(c.default || c))
 export const LazyUserFormEmail = import('../../components/user/userFormEmail.vue' /* webpackChunkName: "components/user-form-email" */).then(c => wrapFunctional(c.default || c))
 export const LazyUserFormName = import('../../components/user/userFormName.vue' /* webpackChunkName: "components/user-form-name" */).then(c => wrapFunctional(c.default || c))
 export const LazyUserFormPassword = import('../../components/user/userFormPassword.vue' /* webpackChunkName: "components/user-form-password" */).then(c => wrapFunctional(c.default || c))
@@ -35,3 +40,4 @@ export const LazyWelcomeWelContact = import('../../components/welcome/welContact
 export const LazyWelcomeWelPrice = import('../../components/welcome/welPrice.vue' /* webpackChunkName: "components/welcome-wel-price" */).then(c => wrapFunctional(c.default || c))
 export const LazyWelcomeWelProducts = import('../../components/welcome/welProducts.vue' /* webpackChunkName: "components/welcome-wel-products" */).then(c => wrapFunctional(c.default || c))
 export const LazyLoggedInAppBar = import('../../components/loggedIn/header/loggedInAppBar.vue' /* webpackChunkName: "components/logged-in-app-bar" */).then(c => wrapFunctional(c.default || c))
+export const LazyLoggedInNavDrawer = import('../../components/loggedIn/header/loggedInNavDrawer.vue' /* webpackChunkName: "components/logged-in-nav-drawer" */).then(c => wrapFunctional(c.default || c))
