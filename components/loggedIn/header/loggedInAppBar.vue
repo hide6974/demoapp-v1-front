@@ -14,7 +14,13 @@
       <app-logo></app-logo>
     </nuxt-link>
 
-    <app-title></app-title>
+    <app-title
+      class="hidden-mobile-and-down"
+    >
+    </app-title>
+    <breadcrumbs
+      v-if="notTopPage"
+    ></breadcrumbs>
     <v-spacer />
 
       <v-menu
@@ -79,11 +85,13 @@
 <script>
 import appLogo from '~/components/ui/appLogo'
 import appTitle from '~/components/ui/appTitle'
+import breadcrumbs from '~/components/loggedIn/ui/breadcrumbs'
 
 export default {
   components: {
     appLogo,
-    appTitle
+    appTitle,
+    breadcrumbs
   },
   data () {
     return {
@@ -92,6 +100,11 @@ export default {
         { name: 'account-password', icon: 'mdi-lock-outline' },
         { name: 'logout', icon: 'mdi-logout-variant', divider: true }
       ]
+    }
+  },
+  computed: {
+    notTopPage () {
+      return this.$route.name !== 'index'
     }
   }
 }

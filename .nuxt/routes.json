@@ -9,74 +9,96 @@
         "name": "account-password",
         "path": "password",
         "component": "/app/pages/account/password.vue",
-        "chunkName": "pages/account/password"
+        "chunkName": "pages/account/password",
+        "_name": "_035228b2"
       },
       {
         "name": "account-settings",
         "path": "settings",
         "component": "/app/pages/account/settings.vue",
-        "chunkName": "pages/account/settings"
+        "chunkName": "pages/account/settings",
+        "_name": "_07382da2"
       }
-    ]
+    ],
+    "_name": "_83dfe29a"
   },
   {
     "name": "login",
     "path": "/login",
     "component": "/app/pages/login.vue",
-    "chunkName": "pages/login"
+    "chunkName": "pages/login",
+    "_name": "_10ba8d22"
   },
   {
     "name": "logout",
     "path": "/logout",
     "component": "/app/pages/logout.vue",
-    "chunkName": "pages/logout"
+    "chunkName": "pages/logout",
+    "_name": "_49c57cf4"
+  },
+  {
+    "name": "project",
+    "path": "/project",
+    "component": "/app/pages/project.vue",
+    "chunkName": "pages/project",
+    "children": [
+      {
+        "name": "project-id-components",
+        "path": ":id?/components",
+        "component": "/app/pages/project/_id/components.vue",
+        "chunkName": "pages/project/_id/components",
+        "_name": "_b67787aa"
+      },
+      {
+        "name": "project-id-dashboard",
+        "path": ":id?/dashboard",
+        "component": "/app/pages/project/_id/dashboard.vue",
+        "chunkName": "pages/project/_id/dashboard",
+        "_name": "_3c010e0f"
+      },
+      {
+        "name": "project-id-help",
+        "path": ":id?/help",
+        "component": "/app/pages/project/_id/help.vue",
+        "chunkName": "pages/project/_id/help",
+        "_name": "_e63ac6d4"
+      },
+      {
+        "name": "project-id-layouts",
+        "path": ":id?/layouts",
+        "component": "/app/pages/project/_id/layouts.vue",
+        "chunkName": "pages/project/_id/layouts",
+        "_name": "_414ee844"
+      },
+      {
+        "name": "project-id-pages",
+        "path": ":id?/pages",
+        "component": "/app/pages/project/_id/pages.vue",
+        "chunkName": "pages/project/_id/pages",
+        "_name": "_0b123682"
+      },
+      {
+        "name": "project-id-settings",
+        "path": ":id?/settings",
+        "component": "/app/pages/project/_id/settings.vue",
+        "chunkName": "pages/project/_id/settings",
+        "_name": "_652161f8"
+      }
+    ],
+    "_name": "_526a799f"
   },
   {
     "name": "signup",
     "path": "/signup",
     "component": "/app/pages/signup.vue",
-    "chunkName": "pages/signup"
-  },
-  {
-    "name": "project-id-components",
-    "path": "/project/:id?/components",
-    "component": "/app/pages/project/_id/components.vue",
-    "chunkName": "pages/project/_id/components"
-  },
-  {
-    "name": "project-id-dashboard",
-    "path": "/project/:id?/dashboard",
-    "component": "/app/pages/project/_id/dashboard.vue",
-    "chunkName": "pages/project/_id/dashboard"
-  },
-  {
-    "name": "project-id-help",
-    "path": "/project/:id?/help",
-    "component": "/app/pages/project/_id/help.vue",
-    "chunkName": "pages/project/_id/help"
-  },
-  {
-    "name": "project-id-layouts",
-    "path": "/project/:id?/layouts",
-    "component": "/app/pages/project/_id/layouts.vue",
-    "chunkName": "pages/project/_id/layouts"
-  },
-  {
-    "name": "project-id-pages",
-    "path": "/project/:id?/pages",
-    "component": "/app/pages/project/_id/pages.vue",
-    "chunkName": "pages/project/_id/pages"
-  },
-  {
-    "name": "project-id-settings",
-    "path": "/project/:id?/settings",
-    "component": "/app/pages/project/_id/settings.vue",
-    "chunkName": "pages/project/_id/settings"
+    "chunkName": "pages/signup",
+    "_name": "_490e6182"
   },
   {
     "name": "index",
     "path": "/",
     "component": "/app/pages/index.vue",
-    "chunkName": "pages/index"
+    "chunkName": "pages/index",
+    "_name": "_2dfb1658"
   }
 ]
